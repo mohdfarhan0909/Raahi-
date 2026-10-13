@@ -26,8 +26,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",
         "http://localhost:4173",
-        "https://raahi-sppt.vercel.app
-",
+        "https://raahi-sppt.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
